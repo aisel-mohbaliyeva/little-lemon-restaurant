@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500;600;700&family=Karla:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary-green: #495E57;
+  --primary-yellow: #F4CE14;
+  --secondary-salmon: #EE9972;
+  --secondary-peach: #FBDABB;
+  --highlight-light: #EDEFEE;
+  --highlight-dark: #333333;
+  --white: #FFFFFF;
+  --error: #d32f2f;
+  --success: #2e7d32;
+  --font-display: 'Markazi Text', serif;
+  --font-body: 'Karla', sans-serif;
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.12);
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --transition: 0.2s ease;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-body);
+  background: var(--white);
+  color: var(--highlight-dark);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+img { max-width: 100%; display: block; }
+a { text-decoration: none; color: inherit; }
+button, input, select, textarea { font-family: var(--font-body); }
+h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.2; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border-width: 0; }
