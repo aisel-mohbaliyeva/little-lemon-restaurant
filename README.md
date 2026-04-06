@@ -5,7 +5,7 @@ The app allows users to explore the restaurant experience and make table reserva
 
 ## 🚀 Live Demo
 Add your deployed link here:  
-[Live Demo](https://your-live-demo-link.com)
+[Live Demo](little-lemon-restaurant-indol.vercel.app)
 
 ## 📌 Overview
 
