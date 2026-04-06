@@ -1,10 +1,6 @@
 import React from 'react';
 import './HomePage.css';
 
-/**
- * HomePage - Landing page for Little Lemon restaurant.
- * Contains hero section, specials, and testimonials.
- */
 function HomePage({ onReserve }) {
   const specials = [
     {
@@ -60,11 +56,6 @@ function HomePage({ onReserve }) {
               Reserve a Table
             </button>
           </div>
-          <div className="hero__image-wrap" aria-hidden="true">
-            <div className="hero__image">
-              <span className="hero__image-emoji">🍋</span>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -81,7 +72,7 @@ function HomePage({ onReserve }) {
               Online Menu
             </button>
           </div>
-          <ul className="specials__grid" role="list" aria-label="Weekly specials">
+          <ul className="specials__grid" aria-label="Weekly specials">
             {specials.map((item) => (
               <li key={item.id} className="special-card">
                 <div className="special-card__image" aria-hidden="true">
@@ -114,7 +105,7 @@ function HomePage({ onReserve }) {
           <h2 id="testimonials-heading" className="testimonials__title">
             What Our Customers Say
           </h2>
-          <ul className="testimonials__grid" role="list" aria-label="Customer reviews">
+          <ul className="testimonials__grid" aria-label="Customer reviews">
             {testimonials.map((t) => (
               <li key={t.id} className="testimonial-card">
                 <div
@@ -135,30 +126,6 @@ function HomePage({ onReserve }) {
               </li>
             ))}
           </ul>
-        </div>
-      </section>
-
-      {/* About section */}
-      <section className="about" aria-labelledby="about-heading">
-        <div className="container">
-          <div className="about__inner">
-            <div className="about__content">
-              <h2 id="about-heading" className="about__title">Little Lemon</h2>
-              <h3 className="about__subtitle">Chicago</h3>
-              <p className="about__text">
-                Little Lemon is owned by two Italian brothers, Mario and Adrian,
-                who moved to the United States to pursue their shared dream of
-                owning a restaurant. To craft the menu, Mario relies on family
-                recipes and his experience as a chef in Italy. Adrian does a lot
-                of the marketing work and also helps to manage the business
-                operations.
-              </p>
-            </div>
-            <div className="about__images" aria-hidden="true">
-              <div className="about__img about__img--back">👨‍🍳</div>
-              <div className="about__img about__img--front">🍽️</div>
-            </div>
-          </div>
         </div>
       </section>
     </main>

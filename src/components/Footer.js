@@ -28,7 +28,7 @@ function Footer({ onNavigate }) {
         {/* Nav */}
         <nav aria-label="Footer navigation">
           <h3 className="footer__heading">Doormat Navigation</h3>
-          <ul className="footer__list" role="list">
+          <ul className="footer__list">
             {['Home', 'About', 'Menu', 'Reservations', 'Order Online', 'Login'].map((item) => (
               <li key={item}>
                 <button
@@ -45,7 +45,7 @@ function Footer({ onNavigate }) {
         {/* Contact */}
         <address className="footer__contact">
           <h3 className="footer__heading">Contact</h3>
-          <ul className="footer__list" role="list">
+          <ul className="footer__list">
             <li>
               <a href="tel:+13125550167" className="footer__link" aria-label="Call us at +1 312 555 0167">
                 +1 (312) 555-0167
@@ -66,7 +66,7 @@ function Footer({ onNavigate }) {
         {/* Social */}
         <div className="footer__social">
           <h3 className="footer__heading">Social Media Links</h3>
-          <ul className="footer__list" role="list">
+          <ul className="footer__list">
             <li>
               <a href="https://facebook.com" className="footer__link" target="_blank" rel="noopener noreferrer" aria-label="Visit Little Lemon on Facebook">
                 Facebook

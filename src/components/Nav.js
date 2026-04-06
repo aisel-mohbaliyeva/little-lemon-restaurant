@@ -36,7 +36,7 @@ function Nav({ currentPage, onNavigate }) {
         </button>
 
         {/* Desktop links */}
-        <ul className="nav__links" role="list">
+        <ul className="nav__links">
           {links.map((link) => (
             <li key={link.id}>
               <button
@@ -71,7 +71,7 @@ function Nav({ currentPage, onNavigate }) {
         role="region"
         aria-label="Mobile navigation"
       >
-        <ul role="list">
+        <ul>
           {links.map((link) => (
             <li key={link.id}>
               <button
