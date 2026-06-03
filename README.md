@@ -1,4 +1,4 @@
-# 🍋 Little Lemon — Front-End Reservation App
+# 🍋 Little Lemon 
 
 **Live Demo:** [https://little-lemon-restaurant-indol.vercel.app](https://little-lemon-restaurant-indol.vercel.app)
 
